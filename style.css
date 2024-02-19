@@ -61,8 +61,19 @@ span.contact {
         display: none;
     }
 
+    .nav-item {
+        display: none;
+    }   
+
+    .consultation {
+        display: none;
+    }
+
     .navbar-area {
         background-color: var(--black-color);
+        margin: auto;
+        display: flex;
+        justify-content: center;
     }
 
     .navbar button {
@@ -120,6 +131,7 @@ span.contact {
 .card-sect .my-card {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -127,10 +139,75 @@ span.contact {
 .my-card {
     background-color: var(--white-color);
     width: 300px;
-    padding: 22px;
+    padding: 32px;
 }
 
+.card-sect {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.my-card img {
+    margin-right: 20px;
+}
+
+.card1 {
+    height: 170px;
+    margin: auto;
+    border-radius: 10px;
+    width: 550px;
+    margin-bottom: 10px;
+}
 
 .card-text {
     color: rgb(160, 160, 160);
 }
+
+@media (max-width:768px) {
+        .card-sect {
+            flex-direction: column;
+        }
+}
+
+.img img {
+    padding: 22px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 100px;
+}
+
+.card1:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
+.card1:hover .text h4 {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
+
+.card1:hover .text p {
+    background-color: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
+.footer {
+    background: #e0e0e0;
+    height: 340px;
+}
+
+.sect1 {
+    padding: 22px;
+}
+
+.navbar-nav {
+    margin-left: -50px;
+}
+
+.consultation {
+    background-color: var(--primary-color) !important;
+    padding: 23px;
+}
+
