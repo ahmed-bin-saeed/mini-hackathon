@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #fd4c82;
+    --secondary-color: #91c235;
+    --text-color: ;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./assets/imgs/bg_1.jpg.webp);
+    background-repeat: no-repeat   ;
+    background-position: center;
+    background-size: cover;
+}
+
+ul li a i  {
+    padding: 8px;
+    background-color: var(--white-color);
+    transition: 0.3s;
+    border-radius: 100px;
+}
+
+ul li a i:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    transition: 0.3s;
+}
+
+span.contact {
+    color: grey;
+    font-size: 12px;
+    margin-right: 2px;
+    font-weight: 720;
+}
+
+.contact-links {
+    font-size: 12px;
+    font-weight: 720;
+    color: gray;
+}
+
+.contact-links a {
+    color: var(--black-color);
+}
+
+.navbar-area {
+    background-color: var(--white-color);
+    padding: 18px;
+}
+
+.active-link {
+    color: var(--primary-color);
+}
+
+@media (max-width:992px) {
+    .my-nav  {
+        display: none;
+    }
+
+    .navbar-area {
+        background-color: var(--black-color);
+    }
+
+    .navbar button {
+        background-color: var(--white-color);
+    }
+
+    .navbar-brand span {
+        color:var(--white-color);
+    }
+
+    .navbar-toggler-btn {
+        color: grey;
+    }
+}
+
+.hero-section-area {
+    padding: 23px;
+}
+
+.hero-section-area h1 {
+    font-weight: bold;
+    font-size: 43px;
+}
+
+.hero-section {
+    width: 450px;
+}
+
+.hero-section p {
+    color: rgb(160, 157, 157);
+    font-weight: 500;
+}
+
+.appoint, .number {
+    padding: 10px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--white-color);
+}
+
+.number {
+    background: var(--secondary-color);
+    transition: 0.3s;
+    border: 2px solid var(--secondary-color);
+    margin-top: 25px;
+}
+
+.number:hover {
+    background: transparent;
+    color: var(--secondary-color);
+    transition: 0.3s;
+}
+
+.card-sect .my-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.my-card {
+    background-color: var(--white-color);
+    width: 300px;
+    padding: 22px;
+}
+
+
+.card-text {
+    color: rgb(160, 160, 160);
+}
