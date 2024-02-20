@@ -154,7 +154,7 @@ span.contact {
 }
 
 .card1 {
-    height: 170px;
+    height: 240px;
     margin: auto;
     border-radius: 10px;
     width: 550px;
@@ -193,10 +193,10 @@ span.contact {
     color: var(--white-color) !important;
 }
 
-.footer {
+/* .footer {
     background: #e0e0e0;
     height: 340px;
-}
+} */
 
 .sect1 {
     padding: 22px;
@@ -211,3 +211,18 @@ span.contact {
     padding: 23px;
 }
 
+.footer {
+    padding: 2px;
+    background-color: #e0e0e0;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.footer-area p {
+    padding: 18px;
+}
